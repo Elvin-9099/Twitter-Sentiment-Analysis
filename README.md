@@ -40,9 +40,9 @@ jupyter notebook
 
 ### Twitter Sentiment Analysis
 The whole project is broken into different Python files from splitting the dataset to actually doing sentiment analysis. The steps to carry out Twitter Sentiment Analysis are:
-1. Run the file `train-test-split.py` to split the Twitter dataset into training and testing data.
+1. Run the file `Splitting_Dataset.py` to split the Twitter dataset into training and testing data.
 
-2. Run the file `preprocessing.py` to process the tweets.
+2. Run the file `Pre-processing.py` to process the tweets.
 - Remove @user mentions
 - Remove non-alphabetic characters + spaces + apostrophe
 - Remove links
@@ -51,9 +51,9 @@ The whole project is broken into different Python files from splitting the datas
 - Lemmatize words
 - Stem words
 
-3. After processing of the tweets, **LSTM** can be used to train on the data and test the accuracy on the test data by running the LSTM.py
+3. After processing of the tweets, **LSTM** can be used to train on the data and test the accuracy on the test data by running the `LSTM.py`
 
-4. Run the `model_making.py` to create another model which maps the words to indexes in a dictionary
+4. Run the `Model_making.py` to create another model which maps the words to indexes in a dictionary
 
 5. Run the `User_Prediction.py` to use the model created in step 4 for real time prediction.
 
