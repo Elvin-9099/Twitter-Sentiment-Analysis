@@ -10,7 +10,7 @@ This project uses a python version of 3.7.9
 ### Get the code
 1. Clone the repo to your machine
 ```
-git clone https://github.com/kb22/Twitter-Sentiment-Analysis-using-Neural-Networks.git
+git clone https://github.com/Elvin-9099/Twitter_Sentiment_Analysis_LSTM.git
 ```
 2. Move into the folder
 ```
